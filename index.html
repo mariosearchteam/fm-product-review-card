@@ -12,7 +12,10 @@
 <body>
 <main>
   <article class="product container split">
-    <img class="product__image" src="./images/image-product-desktop.jpg" alt="Perfume bottle">
+    <picture>
+      <source srcset="./images/image-product-desktop.jpg" media="(min-width: 40em)">
+      <img class="product__image" src="./images/image-product-mobile.jpg" alt="Perfume bottle">
+    </picture>
     <div class="product__content flow-content">
       <header>
         <h2>Perfume</h2>
